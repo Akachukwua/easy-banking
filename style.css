@@ -1,0 +1,47 @@
+*{
+    margin-right: 0px;
+}
+.navbar{
+    margin:30px 100px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.links a{
+    text-decoration: none;
+    margin: 5px 15px;
+    color: #2D314D;
+}
+button{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #31D069, #2CBDBB);
+    color: #fff;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wel-ban{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    justify-content: space-between;
+}
+.ban-left{
+    margin-top: 100px;
+    margin-left: 150px;
+    text-align: left;
+}
+.ban-right{
+    background-image: url('images/bg-intro-desktop.svg');
+    background-position: bottom left;
+    /* background-size: auto; */
+}
